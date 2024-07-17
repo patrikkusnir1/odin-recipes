@@ -5,16 +5,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, aspect-ratio=1.0">
   <title>Recipes</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <h1>Odin recipes</h1>
-  <ul>
-    <li><a href="recipes/lokse.html">Lokse</a></li>
-    <li><a href="recipes/pizza.html">Pizza</a></li>
-    <li><a href="recipes/pizza.html">Croissants</a></li>
-  </ul>
-
+  <div class="title">
+    <h1>Odin recipes</h1>
+    <h2>Choose your favourite food</h2>
+  </div>
+  <div class="wrapper">
+    <section class="filter">
+      <h2>Recipes</h2>
+      <ul>
+        <li><a href="#">Breakfast (1)</a></li>
+        <li><a href="#">Pizza (1)</a></li>
+        <li><a href="">Slovak food (1)</a></li>
+      </ul>
+    </section>
+    <section class="recipes">
+      <ul class="link">
+        <li class="link">
+          <div class="recipe-item">
+            <img src="recipes/lokse.jpg" alt="lokse">
+            <a href="recipes/lokse.html">Lokse</a>
+            <div class="info">
+              <span>Prep: 2 hours</span>
+              <span>Cook: 15 minutes</span>
+            </div>
+          </div>
+        </li>
+        <li class="link">
+          <div class="recipe-item">
+            <img src="recipes/pizza.jpeg" alt="pizza">
+            <a href="recipes/pizza.html">Pizza</a>
+            <div class="info">
+              <span>Prep: 1 hour</span>
+              <span>Cook: 15 minutes</span>
+            </div>
+          </div>
+        </li>
+        <li class="link">
+          <div class="recipe-item">
+            <img src="recipes/croissants.webp" alt="Croissants">
+            <a href="recipes/pizza.html">Croissants</a>
+            <div class="info">
+              <span>Prep: 1 hour</span>
+              <span>Cook: 5 minutes</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </div>
 
 </body>
 

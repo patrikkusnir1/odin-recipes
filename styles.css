@@ -1,0 +1,124 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: antiquewhite;
+  margin: 0 auto;
+}
+
+
+
+h1,
+h2 {
+  text-align: center;
+  color: #333;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.title {
+  background: url("main.jpeg");
+  padding: 50px
+}
+
+.title h1,
+.title h2 {
+  color: #fff;
+}
+
+.filter h2 {
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  /* gap: 50px; */
+}
+
+p,
+li {
+  padding: 0 10px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+img {
+  width: 250px;
+  height: auto;
+  position: relative;
+  left: 50px;
+  border-radius: 5px;
+}
+
+.filter a,
+.link a {
+  text-decoration: none;
+  color: cadetblue;
+  display: inline-block;
+  font-size: 20px;
+}
+
+
+
+.info,
+.link a {
+  margin-left: 52px;
+  width: 100%
+}
+
+.info span:first-of-type:after {
+  content: " |";
+
+}
+
+ul {
+  list-style: none;
+}
+
+ul.link {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+li.link {
+  margin-right: 50px;
+  display: flex;
+}
+
+.recipes {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.steps {
+  width: 100%;
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.steps li {
+  margin-bottom: 10px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.description p {
+  margin-left: 35px;
+}
